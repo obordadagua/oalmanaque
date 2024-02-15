@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a { /* aplica estilos em todos os links */
+    text-decoration: none;
+    color: #000000;
+}
+a:hover { /* aplica cor no evento MouseOver, nos links  */
+    color: #E80000;
+}
+
+h3 {
+    font-size: 16px; /* dimensão do tipo de letra */
+    margin-top: 6px; /* margem ao topo */
+    margin-bottom: 20px; /* margem inferior*/
+    line-height: 140%; /* Entrelinha com valor 140% maior do que a dimensão do tipo de letra definido acima */
+}
+
+
+.header {
+    background-color: #000000; /* Os códigos de cor hexadecimal devem ser antecedidos de um cardinal */
+}
+
+.menu{
+    background-color: #E80000; /* Os códigos de cor hexadecimal devem ser antecedidos de um cardinal */
+}
+
+.logo {
+    margin-top: 10px; /* Aplica margem superior no logo para que se afaste dos limites superiores do cabeçalho */
+}
+
+
+/* Afetar todas os elementos UL, contidos em classes "header" */
+.header ul {
+    list-style: none; /* retira os bullets */
+    padding: 0px; /* anula margens internas */
+    margin-top: 10px; /* aplica margem ao topo */
+}
+/* Afetar todas os elementos LI, contidos em classes "header" */
+.header li {
+    display: inline; /* Colocar todos os LI na mesa linha */
+}
+/* Afetar todas os elementos A (links) contidos em elementos LI, estando estes últimos contidos em classes "header" */
+.header li a {
+    color: white;  /* Cor das letras do menu e do icone das redes sociais */
+    margin-left: 20px;
+}
+
+
+/* Afetar todos os elementos (links) da barra de navegação  */
+.navbar .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase; /* transforma todos o texto em maiúsculas  */
+    font-weight: bold; /* coloca o texto a bold/negrito */
+}
+
+
+/* todos os elementos H1 contidos em classes "header-area" */
+.header-area h1 {
+    text-align: center; /* com texto centrado */
+    margin-top: 40px;
+}
+/* todos os elementos P contidos em classes "header-area" */
+.header-area p {
+    text-align: center; /* com texto centrado */
+}
+
+.bgcolor-area {
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: #000000; /* cor do título do video */
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.linha {
+    text-align: center;
+}
+.linha hr {
+    width: 300px;
+    margin: 0px auto; /* para centrar o HR: margem automática */
+    border-color: #E80000; /* aplicar cor na linha (HR) deve ser feito com "border" n*/
+    border-width: 4px; /* indicar a espessura do traço */
+    padding-bottom: 30px;
+}
+
+
+.pre-footer {
+    background-color: #000000; /* cor do footer */
+    padding: 30px;
+}
+.pre-footer a {
+    color: #FFFFFF; /* cor dos icones redes sociais no footer */
+    margin: 10px;
+}
+.pre-footer ul {
+    list-style: none;
+    color: #FFFFFF; /* cor do texto no footer */
+    margin: 0px;
+    padding: 0px;
+}
+.pre-footer li {
+    display: block;
+}
+.pre-footer .fa-brands,
+.pre-footer .fa-solid {
+    font-size: 24px;
+}
+.pre-footer a:hover {
+    color: #FFFFFF; /* ??? */
+}
+
+
+
+
+.logo-footer, .footer { /* aplicar o mesmo conjunto de instruções CSS em duas classes HTML diferentes */
+    background-color: #E80000; /* cor da ultima barra do footer */
+    text-align: center;
+}
+.logo-footer img {
+    max-width: 100px; /* imposição de uma largura máxima para a imagem (apenas pode reduzir para além deste valor, nunca aumentar) */
+    margin: 20px;
+}
+.footer {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.footer a:hover {
+    color: #FFFFFF; /* cor do link do ultimo footer */
+}
+
+
+.detail h1 {
+    margin-top: 40px;
+    color:  #E80000;
+}
+.detail h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #E80000;
+}
+
+
+.map .ratio {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
